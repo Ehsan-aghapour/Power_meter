@@ -165,7 +165,8 @@ main(int argc, char *argv[])
 		 */
 		//printf("I'm reading %d in GPIO %d\n", GPIORead(PIN), PIN);
 
-		usleep(16 * 1000);
+		//usleep(16 * 1000);
+		usleep(4 * 1000000);
 	}
 	while (repeat--);
 
